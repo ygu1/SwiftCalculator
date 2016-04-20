@@ -29,6 +29,11 @@
                                 <state key="normal" title="AC">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="LHW-VC-lhx"/>
@@ -52,6 +57,11 @@
                                 <state key="normal" title="±">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="ZKm-zo-iAK"/>
@@ -68,6 +78,11 @@
                                 <state key="normal" title="%">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="A5T-au-Tby"/>
@@ -84,6 +99,11 @@
                                 <state key="normal" title="÷">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="mvf-Zy-Z5E"/>
@@ -100,6 +120,11 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="J6d-on-IYj"/>
@@ -116,6 +141,11 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="26o-hY-1Ca"/>
@@ -132,6 +162,11 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="oKW-9b-OcY"/>
@@ -148,6 +183,11 @@
                                 <state key="normal" title="×">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="h3y-PF-Ji1"/>
@@ -155,7 +195,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taz-66-JLf">
-                                <rect key="frame" x="0.0" y="342" width="150" height="86"/>
+                                <rect key="frame" x="0.0" y="343" width="150" height="86"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="taz-66-JLf" secondAttribute="height" multiplier="1:1" id="e9y-Kr-9Sd"/>
@@ -164,6 +204,11 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="e9y-Kr-9Sd"/>
@@ -171,7 +216,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5d-AX-ivT">
-                                <rect key="frame" x="150" y="342" width="150" height="86"/>
+                                <rect key="frame" x="150" y="343" width="150" height="86"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="x5d-AX-ivT" secondAttribute="height" multiplier="1:1" id="7lN-ue-mEo"/>
@@ -180,6 +225,11 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="7lN-ue-mEo"/>
@@ -187,7 +237,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-Wj-i9Z">
-                                <rect key="frame" x="300" y="342" width="150" height="86"/>
+                                <rect key="frame" x="300" y="343" width="150" height="86"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="qhf-Wj-i9Z" secondAttribute="height" multiplier="1:1" id="q2U-tQ-bTI"/>
@@ -196,6 +246,11 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="q2U-tQ-bTI"/>
@@ -203,7 +258,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gQ-sR-3h3">
-                                <rect key="frame" x="450" y="342" width="150" height="86"/>
+                                <rect key="frame" x="450" y="343" width="150" height="86"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0gQ-sR-3h3" secondAttribute="height" multiplier="1:1" id="b2z-IU-P2O"/>
@@ -212,6 +267,11 @@
                                 <state key="normal" title="−">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="b2z-IU-P2O"/>
@@ -219,7 +279,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6A-WY-xiA">
-                                <rect key="frame" x="0.0" y="428" width="150" height="86"/>
+                                <rect key="frame" x="0.0" y="429" width="150" height="86"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="q6A-WY-xiA" secondAttribute="height" multiplier="1:1" id="aDM-kq-ZAs"/>
@@ -228,6 +288,11 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="aDM-kq-ZAs"/>
@@ -235,7 +300,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRU-bF-cMq">
-                                <rect key="frame" x="150" y="428" width="150" height="86"/>
+                                <rect key="frame" x="150" y="429" width="150" height="86"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fRU-bF-cMq" secondAttribute="height" multiplier="1:1" id="e3C-Gm-Wdz"/>
@@ -244,6 +309,11 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="e3C-Gm-Wdz"/>
@@ -251,7 +321,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhl-BY-d3h">
-                                <rect key="frame" x="300" y="428" width="150" height="86"/>
+                                <rect key="frame" x="300" y="429" width="150" height="86"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Zhl-BY-d3h" secondAttribute="height" multiplier="1:1" id="GE5-dv-lH8"/>
@@ -260,6 +330,11 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="GE5-dv-lH8"/>
@@ -267,7 +342,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-jk-zoJ">
-                                <rect key="frame" x="450" y="428" width="150" height="86"/>
+                                <rect key="frame" x="450" y="429" width="150" height="86"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="D8B-jk-zoJ" secondAttribute="height" multiplier="1:1" id="yoT-Tp-D7c"/>
@@ -276,6 +351,11 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="yoT-Tp-D7c"/>
@@ -283,7 +363,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0N9-LK-IWX">
-                                <rect key="frame" x="0.0" y="514" width="300" height="86"/>
+                                <rect key="frame" x="0.0" y="515" width="300" height="85"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0N9-LK-IWX" secondAttribute="height" multiplier="1:1" id="DCv-CD-ocq"/>
@@ -292,6 +372,11 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="DCv-CD-ocq"/>
@@ -299,7 +384,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLH-R3-ZWz">
-                                <rect key="frame" x="450" y="514" width="150" height="86"/>
+                                <rect key="frame" x="450" y="515" width="150" height="85"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OLH-R3-ZWz" secondAttribute="height" multiplier="1:1" id="xxa-tp-6mO"/>
@@ -308,6 +393,11 @@
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="xxa-tp-6mO"/>
@@ -315,7 +405,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bU-OS-4qF">
-                                <rect key="frame" x="300" y="514" width="150" height="86"/>
+                                <rect key="frame" x="300" y="515" width="150" height="85"/>
                                 <color key="backgroundColor" white="0.98119955729999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8bU-OS-4qF" secondAttribute="height" multiplier="1:1" id="2zr-RG-91U"/>
@@ -324,6 +414,11 @@
                                 <state key="normal" title=".">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="2zr-RG-91U"/>
@@ -348,7 +443,7 @@
                             <constraint firstItem="Zhl-BY-d3h" firstAttribute="width" secondItem="q6A-WY-xiA" secondAttribute="width" id="8IH-rZ-Zuk"/>
                             <constraint firstItem="3U6-kE-9pQ" firstAttribute="top" secondItem="PqJ-Ys-gbh" secondAttribute="bottom" id="8X4-5t-BX3"/>
                             <constraint firstItem="fRU-bF-cMq" firstAttribute="top" secondItem="x5d-AX-ivT" secondAttribute="bottom" id="94Z-hX-cRb"/>
-                            <constraint firstItem="taz-66-JLf" firstAttribute="top" secondItem="3U6-kE-9pQ" secondAttribute="bottom" constant="-1" id="CyB-b0-GXa"/>
+                            <constraint firstItem="taz-66-JLf" firstAttribute="top" secondItem="3U6-kE-9pQ" secondAttribute="bottom" id="CyB-b0-GXa"/>
                             <constraint firstItem="xnZ-Nf-y4f" firstAttribute="height" secondItem="3U6-kE-9pQ" secondAttribute="height" id="DbC-qk-VKD"/>
                             <constraint firstItem="fRU-bF-cMq" firstAttribute="width" secondItem="q6A-WY-xiA" secondAttribute="width" id="DsT-bq-MOZ"/>
                             <constraint firstItem="8bU-OS-4qF" firstAttribute="width" secondItem="Zhl-BY-d3h" secondAttribute="width" id="E01-Dd-WVA"/>
@@ -356,7 +451,7 @@
                             <constraint firstItem="q6A-WY-xiA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="E5H-rj-5Lx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0N9-LK-IWX" secondAttribute="bottom" id="GRj-aR-pXN"/>
                             <constraint firstItem="qhf-Wj-i9Z" firstAttribute="width" secondItem="taz-66-JLf" secondAttribute="width" id="HmC-Ff-Wme"/>
-                            <constraint firstItem="qhf-Wj-i9Z" firstAttribute="top" secondItem="ILY-AR-iI9" secondAttribute="bottom" constant="-1" id="IZM-qQ-9Cf"/>
+                            <constraint firstItem="qhf-Wj-i9Z" firstAttribute="top" secondItem="ILY-AR-iI9" secondAttribute="bottom" id="IZM-qQ-9Cf"/>
                             <constraint firstItem="OLH-R3-ZWz" firstAttribute="top" secondItem="D8B-jk-zoJ" secondAttribute="bottom" id="J6S-Nf-lpq"/>
                             <constraint firstItem="q6A-WY-xiA" firstAttribute="top" secondItem="taz-66-JLf" secondAttribute="bottom" id="K74-WD-xlW"/>
                             <constraint firstItem="q6A-WY-xiA" firstAttribute="height" secondItem="PqJ-Ys-gbh" secondAttribute="height" id="KZL-cq-jfu"/>
@@ -398,7 +493,7 @@
                             <constraint firstItem="8bU-OS-4qF" firstAttribute="top" secondItem="Zhl-BY-d3h" secondAttribute="bottom" id="hbT-7I-0G9"/>
                             <constraint firstItem="Zhl-BY-d3h" firstAttribute="top" secondItem="qhf-Wj-i9Z" secondAttribute="bottom" id="i0M-4M-5pl"/>
                             <constraint firstItem="3U6-kE-9pQ" firstAttribute="width" secondItem="PqJ-Ys-gbh" secondAttribute="width" id="jJb-1E-8zC"/>
-                            <constraint firstItem="x5d-AX-ivT" firstAttribute="top" secondItem="xnZ-Nf-y4f" secondAttribute="bottom" constant="-1" id="kNJ-k5-wPr"/>
+                            <constraint firstItem="x5d-AX-ivT" firstAttribute="top" secondItem="xnZ-Nf-y4f" secondAttribute="bottom" id="kNJ-k5-wPr"/>
                             <constraint firstItem="PtB-jZ-FlL" firstAttribute="leading" secondItem="4Uf-qk-wSs" secondAttribute="trailing" id="kvj-jd-lgL"/>
                             <constraint firstItem="0gQ-sR-3h3" firstAttribute="leading" secondItem="qhf-Wj-i9Z" secondAttribute="trailing" id="m67-YF-Qhf"/>
                             <constraint firstItem="4Uf-qk-wSs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="149" id="nBy-RZ-OYl"/>
@@ -412,7 +507,7 @@
                             <constraint firstItem="taz-66-JLf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rpd-Q3-yXB"/>
                             <constraint firstAttribute="leading" secondItem="0N9-LK-IWX" secondAttribute="leading" id="sOw-a4-WqE"/>
                             <constraint firstItem="PqJ-Ys-gbh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:7" id="t3w-uc-a5k"/>
-                            <constraint firstItem="0gQ-sR-3h3" firstAttribute="top" secondItem="pxc-Q5-ZhS" secondAttribute="bottom" constant="-1" id="tmI-c6-RZn"/>
+                            <constraint firstItem="0gQ-sR-3h3" firstAttribute="top" secondItem="pxc-Q5-ZhS" secondAttribute="bottom" id="tmI-c6-RZn"/>
                             <constraint firstItem="pxc-Q5-ZhS" firstAttribute="width" secondItem="3U6-kE-9pQ" secondAttribute="width" id="wC8-Th-PiA"/>
                             <constraint firstItem="OLH-R3-ZWz" firstAttribute="height" secondItem="8bU-OS-4qF" secondAttribute="height" id="x9V-5P-arE"/>
                         </constraints>
@@ -423,6 +518,28 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="clearBtn" destination="PqJ-Ys-gbh" id="GB6-N6-pte"/>
+                        <outlet property="divideBtn" destination="E0z-o9-3h9" id="rdF-43-C3j"/>
+                        <outlet property="eightBtn" destination="xnZ-Nf-y4f" id="EDE-sR-MaN"/>
+                        <outlet property="equalBtn" destination="OLH-R3-ZWz" id="Z34-oG-Nx6"/>
+                        <outlet property="fiveBtn" destination="x5d-AX-ivT" id="o13-lr-ORg"/>
+                        <outlet property="fourBtn" destination="taz-66-JLf" id="PZN-rB-IBQ"/>
+                        <outlet property="multipleBtn" destination="pxc-Q5-ZhS" id="USy-BX-B8W"/>
+                        <outlet property="negativeBtn" destination="4Uf-qk-wSs" id="6MF-4p-Ipb"/>
+                        <outlet property="nineBtn" destination="ILY-AR-iI9" id="VNT-9F-J3b"/>
+                        <outlet property="oneBtn" destination="q6A-WY-xiA" id="KGo-0t-JvQ"/>
+                        <outlet property="percentBtn" destination="PtB-jZ-FlL" id="dxM-7a-ol0"/>
+                        <outlet property="plusBtn" destination="D8B-jk-zoJ" id="sQV-xT-p7o"/>
+                        <outlet property="pointBtn" destination="8bU-OS-4qF" id="HjU-vM-GE0"/>
+                        <outlet property="resultLabel" destination="6Ar-Cv-Hck" id="Suc-65-aVq"/>
+                        <outlet property="sevenBtn" destination="3U6-kE-9pQ" id="C8s-7W-zhZ"/>
+                        <outlet property="sixBtn" destination="qhf-Wj-i9Z" id="iHb-GM-14l"/>
+                        <outlet property="subBtn" destination="0gQ-sR-3h3" id="jPA-6v-PZ1"/>
+                        <outlet property="threeBtn" destination="Zhl-BY-d3h" id="7nv-CK-TLT"/>
+                        <outlet property="twoBtn" destination="fRU-bF-cMq" id="mTN-FR-vzk"/>
+                        <outlet property="zeroBtn" destination="0N9-LK-IWX" id="a1C-m0-Qce"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftCalculator
 //
-//  Created by EERC718 on 4/20/16.
+//  Created by Yanliang on 4/20/16.
 //
 //
 

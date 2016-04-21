@@ -33,33 +33,54 @@ class ViewController: UIViewController {
     @IBOutlet var eightBtn: UIButton!
     @IBOutlet var nineBtn: UIButton!
     
+    var digital1: String = ""
+    var digital2: String = ""
+    var decimalNumber: Int = 0
+    var integerNumber: Int = 0
+    var calculatePressed: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //self.buttonExtrior()
-        
     }
     
+    @IBAction func pressAdd(sender: UIButton) {
+        calculatePressed = true
+        resultLabel.text = "0"
+    }
+    @IBAction func pressSub(sender: UIButton) {
+    }
+    @IBAction func pressTime(sender: UIButton) {
+    }
+    @IBAction func pressDivide(sender: UIButton) {
+    }
+    
+    @IBAction func pressDigital(sender: UIButton) {
+        if calculatePressed {
+            if digital2 == "0" {
+                digital2 = ""
+            }
+            digital2 = digital2 + (sender.titleLabel?.text)!
+            resultLabel.text = digital2
+        }
+        else {
+            if digital1 == "0" {
+                digital1 = ""
+            }
+            digital1 = digital1 + (sender.titleLabel?.text)!
+            resultLabel.text = digital1
+        }
+    }
+    
+    /*
+     *  press clear button
+     */
+    @IBAction func pressClear(sender: UIButton) {
+        digital1 = "0"
+        resultLabel.text = digital1
+    }
     func buttonExtrior() {
-        clearBtn.layer.borderColor = UIColor.blackColor().CGColor
-        clearBtn.layer.borderWidth = 0.5
-        negativeBtn.layer.borderColor = UIColor.blackColor().CGColor
-        negativeBtn.layer.borderWidth = 0.5
-        percentBtn.layer.borderColor = UIColor.blackColor().CGColor
-        percentBtn.layer.borderWidth = 0.5
-        divideBtn.layer.borderColor = UIColor.blackColor().CGColor
-        divideBtn.layer.borderWidth = 0.5
-        multipleBtn.layer.borderColor = UIColor.blackColor().CGColor
-        multipleBtn.layer.borderWidth = 0.5
-        subBtn.layer.borderColor = UIColor.blackColor().CGColor
-        subBtn.layer.borderWidth = 0.5
-        plusBtn.layer.borderColor = UIColor.blackColor().CGColor
-        plusBtn.layer.borderWidth = 0.5
-        equalBtn.layer.borderColor = UIColor.blackColor().CGColor
-        equalBtn.layer.borderWidth = 0.5
-        pointBtn.layer.borderColor = UIColor.blackColor().CGColor
-        pointBtn.layer.borderWidth = 0.5
         
     }
 

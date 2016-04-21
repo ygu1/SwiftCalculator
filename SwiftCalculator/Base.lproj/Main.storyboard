@@ -39,6 +39,9 @@
                                         <exclude reference="LHW-VC-lhx"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WsA-PV-SPI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ar-Cv-Hck">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="171"/>
@@ -109,6 +112,9 @@
                                         <exclude reference="mvf-Zy-Z5E"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qeh-MW-jxu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U6-kE-9pQ">
                                 <rect key="frame" x="0.0" y="257" width="150" height="86"/>
@@ -130,6 +136,9 @@
                                         <exclude reference="J6d-on-IYj"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CyY-1u-ygS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnZ-Nf-y4f">
                                 <rect key="frame" x="150" y="257" width="150" height="86"/>
@@ -151,6 +160,9 @@
                                         <exclude reference="26o-hY-1Ca"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PVE-la-vgt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILY-AR-iI9">
                                 <rect key="frame" x="300" y="257" width="150" height="86"/>
@@ -172,6 +184,9 @@
                                         <exclude reference="oKW-9b-OcY"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D3l-mT-ksR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxc-Q5-ZhS">
                                 <rect key="frame" x="450" y="257" width="150" height="86"/>
@@ -193,6 +208,9 @@
                                         <exclude reference="h3y-PF-Ji1"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Whh-xe-paz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taz-66-JLf">
                                 <rect key="frame" x="0.0" y="343" width="150" height="86"/>
@@ -214,6 +232,9 @@
                                         <exclude reference="e9y-Kr-9Sd"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9N5-0M-hQH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5d-AX-ivT">
                                 <rect key="frame" x="150" y="343" width="150" height="86"/>
@@ -235,6 +256,9 @@
                                         <exclude reference="7lN-ue-mEo"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z3A-wo-Kue"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-Wj-i9Z">
                                 <rect key="frame" x="300" y="343" width="150" height="86"/>
@@ -256,6 +280,9 @@
                                         <exclude reference="q2U-tQ-bTI"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mSB-S1-bf7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gQ-sR-3h3">
                                 <rect key="frame" x="450" y="343" width="150" height="86"/>
@@ -277,6 +304,9 @@
                                         <exclude reference="b2z-IU-P2O"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressSub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crk-cV-1Sy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6A-WY-xiA">
                                 <rect key="frame" x="0.0" y="429" width="150" height="86"/>
@@ -298,6 +328,9 @@
                                         <exclude reference="aDM-kq-ZAs"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="acD-uk-BAc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRU-bF-cMq">
                                 <rect key="frame" x="150" y="429" width="150" height="86"/>
@@ -319,6 +352,9 @@
                                         <exclude reference="e3C-Gm-Wdz"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="orr-Ja-ecJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhl-BY-d3h">
                                 <rect key="frame" x="300" y="429" width="150" height="86"/>
@@ -340,6 +376,9 @@
                                         <exclude reference="GE5-dv-lH8"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2T-Gt-DQj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8B-jk-zoJ">
                                 <rect key="frame" x="450" y="429" width="150" height="86"/>
@@ -361,6 +400,9 @@
                                         <exclude reference="yoT-Tp-D7c"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="urr-Rv-Hhs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0N9-LK-IWX">
                                 <rect key="frame" x="0.0" y="515" width="300" height="85"/>
@@ -382,6 +424,9 @@
                                         <exclude reference="DCv-CD-ocq"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BQa-us-ep8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLH-R3-ZWz">
                                 <rect key="frame" x="450" y="515" width="150" height="85"/>

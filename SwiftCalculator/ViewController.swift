@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet var divideBtn: UIButton!
     @IBOutlet var multipleBtn: UIButton!
     @IBOutlet var subBtn: UIButton!
-    @IBOutlet var plusBtn: UIButton!
+    @IBOutlet var addBtn: UIButton!
     @IBOutlet var equalBtn: UIButton!
     
     @IBOutlet var pointBtn: UIButton!
@@ -33,27 +33,79 @@ class ViewController: UIViewController {
     @IBOutlet var eightBtn: UIButton!
     @IBOutlet var nineBtn: UIButton!
     
-    var digital1: String = ""
-    var digital2: String = ""
+    var digital1: String = "0"
+    var digital2: String = "0"
     var decimalNumber: Int = 0
     var integerNumber: Int = 0
     var calculatePressed: Bool = false
+    var whichCalculatePressed: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        addBtn.tag = 1
+        subBtn.tag = 2
+        multipleBtn.tag = 3
+        divideBtn.tag = 4
         // Do any additional setup after loading the view, typically from a nib.
         
     }
     
-    @IBAction func pressAdd(sender: UIButton) {
-        calculatePressed = true
-        resultLabel.text = "0"
+    
+    
+    
+    @IBAction func calculatePressed(sender: UIButton) {
+        if calculatePressed{
+            
+        }
+        else{
+            whichCalculatePressed = sender.tag
+            calculatePressed = true
+        }
     }
-    @IBAction func pressSub(sender: UIButton) {
+    
+    @IBAction func equalPressed(sender: UIButton) {
+        if calculatePressed {
+            switch whichCalculatePressed {
+            case 1:
+                self.pressAdd()
+            case 2:
+                self.pressSub()
+            case 3:
+                self.pressTime()
+            case 4:
+                self.pressDivide()
+            default:
+                break
+            }
+            calculatePressed = false
+            whichCalculatePressed = 0
+        }
     }
-    @IBAction func pressTime(sender: UIButton) {
+    
+    
+    func pressAdd() {
+        let tempResult: Double = (Double(digital1))! + (Double(digital2))!
+        resultLabel.text = String(format:"%f",tempResult)
+        digital1 = resultLabel.text!
+        digital2 = "0"
     }
-    @IBAction func pressDivide(sender: UIButton) {
+    func pressSub() {
+        let tempResult: Double = (Double(digital1))! - (Double(digital2))!
+        resultLabel.text = String(format:"%f",tempResult)
+        digital1 = resultLabel.text!
+        digital2 = "0"
+    }
+    func pressTime() {
+        let tempResult: Double = (Double(digital1))! * (Double(digital2))!
+        resultLabel.text = String(format:"%f",tempResult)
+        digital1 = resultLabel.text!
+        digital2 = "0"
+    }
+    func pressDivide() {
+        let tempResult: Double = (Double(digital1))! / (Double(digital2))!
+        resultLabel.text = String(format:"%f",tempResult)
+        digital1 = resultLabel.text!
+        digital2 = "0"
     }
     
     @IBAction func pressDigital(sender: UIButton) {

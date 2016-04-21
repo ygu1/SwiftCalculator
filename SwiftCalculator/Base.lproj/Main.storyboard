@@ -113,7 +113,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="pressDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qeh-MW-jxu"/>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcT-H2-dsx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U6-kE-9pQ">
@@ -209,7 +209,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="pressTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Whh-xe-paz"/>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lE2-DR-G3a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taz-66-JLf">
@@ -305,7 +305,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="pressSub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crk-cV-1Sy"/>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YR9-ee-ciM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6A-WY-xiA">
@@ -401,7 +401,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="pressAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="urr-Rv-Hhs"/>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xne-em-mzs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0N9-LK-IWX">
@@ -448,6 +448,9 @@
                                         <exclude reference="xxa-tp-6mO"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZ0-A3-Zmx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bU-OS-4qF">
                                 <rect key="frame" x="300" y="515" width="150" height="85"/>
@@ -564,6 +567,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="addBtn" destination="D8B-jk-zoJ" id="qPR-OJ-1Rd"/>
                         <outlet property="clearBtn" destination="PqJ-Ys-gbh" id="GB6-N6-pte"/>
                         <outlet property="divideBtn" destination="E0z-o9-3h9" id="rdF-43-C3j"/>
                         <outlet property="eightBtn" destination="xnZ-Nf-y4f" id="EDE-sR-MaN"/>
@@ -575,7 +579,6 @@
                         <outlet property="nineBtn" destination="ILY-AR-iI9" id="VNT-9F-J3b"/>
                         <outlet property="oneBtn" destination="q6A-WY-xiA" id="KGo-0t-JvQ"/>
                         <outlet property="percentBtn" destination="PtB-jZ-FlL" id="dxM-7a-ol0"/>
-                        <outlet property="plusBtn" destination="D8B-jk-zoJ" id="sQV-xT-p7o"/>
                         <outlet property="pointBtn" destination="8bU-OS-4qF" id="HjU-vM-GE0"/>
                         <outlet property="resultLabel" destination="6Ar-Cv-Hck" id="Suc-65-aVq"/>
                         <outlet property="sevenBtn" destination="3U6-kE-9pQ" id="C8s-7W-zhZ"/>

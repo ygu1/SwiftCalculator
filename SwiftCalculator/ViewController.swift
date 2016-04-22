@@ -58,12 +58,14 @@ class ViewController: UIViewController {
             
         }
         else{
+            sender.layer.borderWidth = 1
             whichCalculatePressed = sender.tag
             calculatePressed = true
         }
     }
     
     @IBAction func equalPressed(sender: UIButton) {
+        var divideFlag: Bool = true
         if calculatePressed {
             switch whichCalculatePressed {
             case 1:
@@ -73,12 +75,28 @@ class ViewController: UIViewController {
             case 3:
                 self.pressTime()
             case 4:
-                self.pressDivide()
+                // string 2 cannot be ZERO
+                if digital2 != "0" {
+                    self.pressDivide()
+                }
+                else{
+                    resultLabel.text = "Error"
+                    digital1 = "0"
+                    digital2 = "0"
+                    divideFlag = false
+                }
             default:
                 break
             }
+            if divideFlag {
+                digital1 = resultLabel.text!
+                digital2 = "0"
+            }
+            self.changeBtnBorder()
+            clearBtn.titleLabel?.text = "AC"
             calculatePressed = false
             whichCalculatePressed = 0
+            divideFlag = true
         }
     }
     
@@ -87,55 +105,47 @@ class ViewController: UIViewController {
      */
     func pressAdd() {
         let tempResult: Double = (Double(digital1))! + (Double(digital2))!
-        resultLabel.text = String(format:String(format:"%%.%df",decimalNumber),tempResult)
-        digital1 = resultLabel.text!
-        digital2 = "0"
+        resultLabel.text = self.isInteger(tempResult)
     }
     /*
      *  Sub function
      */
     func pressSub() {
         let tempResult: Double = (Double(digital1))! - (Double(digital2))!
-        resultLabel.text = String(format:String(format:"%%.%df",decimalNumber),tempResult)
-        digital1 = resultLabel.text!
-        digital2 = "0"
+        resultLabel.text = self.isInteger(tempResult)
     }
     /*
      *  Time function
      */
     func pressTime() {
         let tempResult: Double = (Double(digital1))! * (Double(digital2))!
-        resultLabel.text = String(format:String(format:"%%.%df",decimalNumber),tempResult)
-        digital1 = resultLabel.text!
-        digital2 = "0"
+        resultLabel.text = self.isInteger(tempResult)
     }
     /*
      *  Divide function
      */
     func pressDivide() {
-        // string 2 cannot be ZERO
-        if digital2 != "0" {
-            let tempResult: Double = (Double(digital1))! / (Double(digital2))!
-            // check is this an integer
-            if floor(tempResult) == tempResult{
-                resultLabel.text = String(format:"%.0f",tempResult)
-            }
-            else{
-                resultLabel.text = String(format:"%f",tempResult)
-            }
-            digital1 = resultLabel.text!
-            digital2 = "0"
+        let tempResult: Double = (Double(digital1))! / (Double(digital2))!
+        // check is this an integer
+        resultLabel.text = self.isInteger(tempResult)
+    }
+    
+    /*
+     *  Use to decide whether the number is integer
+     */
+    func isInteger(num:Double)->String{
+        if floor(num) == num{
+            return String(format:"%.0f",num)
         }
         else{
-            resultLabel.text = "Error"
-            digital1 = "0"
-            digital2 = "0"
+            return String(format:"%f",num)
         }
     }
     
     
+    
     /*
-     *  When any digital button is pressed, this number will be added to 
+     *  When any digital button is pressed, this number will be added to
      *  a string. So there are two strings used to calculate.
      */
     @IBAction func pressDigital(sender: UIButton) {
@@ -174,6 +184,7 @@ class ViewController: UIViewController {
         if calculatePressed {
             if digital2 == "0" {
                 digital1 = "0"
+                self.changeBtnBorder()
                 whichCalculatePressed = 0
                 calculatePressed = false
             }
@@ -186,6 +197,17 @@ class ViewController: UIViewController {
             digital1 = "0"
         }
         resultLabel.text = "0"
+    }
+    
+    /*
+     *   Remove the bold border after finishing calculation.
+     */
+    func changeBtnBorder(){
+        if whichCalculatePressed != 0
+        {
+            let btn = self.view.viewWithTag(whichCalculatePressed) as! UIButton
+            btn.layer.borderWidth = 0.5
+        }
     }
 
 

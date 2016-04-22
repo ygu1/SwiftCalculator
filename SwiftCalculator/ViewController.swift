@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SwiftCalculator
 //
-//  Created by Yanliang on 4/20/16.
+//  Created by Yanliang Gu on 4/20/16.
 //
 //
 
@@ -82,59 +82,106 @@ class ViewController: UIViewController {
         }
     }
     
-    
+    /*
+     *  Add function
+     */
     func pressAdd() {
         let tempResult: Double = (Double(digital1))! + (Double(digital2))!
         resultLabel.text = String(format:"%f",tempResult)
         digital1 = resultLabel.text!
         digital2 = "0"
     }
+    /*
+     *  Sub function
+     */
     func pressSub() {
         let tempResult: Double = (Double(digital1))! - (Double(digital2))!
         resultLabel.text = String(format:"%f",tempResult)
         digital1 = resultLabel.text!
         digital2 = "0"
     }
+    /*
+     *  Time function
+     */
     func pressTime() {
         let tempResult: Double = (Double(digital1))! * (Double(digital2))!
         resultLabel.text = String(format:"%f",tempResult)
         digital1 = resultLabel.text!
         digital2 = "0"
     }
+    /*
+     *  Divide function
+     */
     func pressDivide() {
-        let tempResult: Double = (Double(digital1))! / (Double(digital2))!
-        resultLabel.text = String(format:"%f",tempResult)
-        digital1 = resultLabel.text!
-        digital2 = "0"
+        // string 2 cannot be ZERO
+        if digital2 != "0" {
+            let tempResult: Double = (Double(digital1))! / (Double(digital2))!
+            resultLabel.text = String(format:"%f",tempResult)
+            digital1 = resultLabel.text!
+            digital2 = "0"
+        }
+        else{
+            resultLabel.text = "Error"
+            digital1 = "0"
+            digital2 = "0"
+        }
     }
     
+    
+    /*
+     *  When any digital button is pressed, this number will be added to 
+     *  a string. So there are two strings used to calculate.
+     */
     @IBAction func pressDigital(sender: UIButton) {
+        // first string
         if calculatePressed {
-            if digital2 == "0" {
-                digital2 = ""
+            if digital2 != "0" {
+                digital2 = digital2 + (sender.titleLabel?.text)!
+                
             }
-            digital2 = digital2 + (sender.titleLabel?.text)!
+            else{
+                digital2 = (sender.titleLabel?.text)!
+                if digital2 != "0" {
+                    clearBtn.titleLabel?.text = "C"
+                }
+            }
             resultLabel.text = digital2
         }
+        // second one
         else {
-            if digital1 == "0" {
-                digital1 = ""
+            if digital1 != "0" {
+                digital1 = digital1 + (sender.titleLabel?.text)!
             }
-            digital1 = digital1 + (sender.titleLabel?.text)!
+            else{
+                digital1 = (sender.titleLabel?.text)!
+            }
             resultLabel.text = digital1
         }
     }
     
     /*
-     *  press clear button
+     *  Press clear button function. If any calculation button is pressed,
+     *  this function will clear the second digital string.
+     *  If continue to press this button, it will clear all.
      */
     @IBAction func pressClear(sender: UIButton) {
-        digital1 = "0"
-        resultLabel.text = digital1
+        if calculatePressed {
+            if digital2 == "0" {
+                digital1 = "0"
+                whichCalculatePressed = 0
+                calculatePressed = false
+            }
+            else{
+                digital2 = "0"
+                clearBtn.titleLabel?.text = "AC"
+            }
+        }
+        else{
+            digital1 = "0"
+        }
+        resultLabel.text = "0"
     }
-    func buttonExtrior() {
-        
-    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

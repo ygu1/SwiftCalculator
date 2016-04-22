@@ -70,6 +70,9 @@
                                         <exclude reference="ZKm-zo-iAK"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="changeNP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rDB-dL-Cvf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtB-jZ-FlL">
                                 <rect key="frame" x="300" y="171" width="150" height="86"/>
@@ -91,6 +94,9 @@
                                         <exclude reference="A5T-au-Tby"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="changePercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4tN-Ef-cwu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0z-o9-3h9">
                                 <rect key="frame" x="450" y="171" width="150" height="86"/>
@@ -472,6 +478,9 @@
                                         <exclude reference="2zr-RG-91U"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pressDigital:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZn-X9-wtD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

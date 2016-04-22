@@ -210,7 +210,36 @@ class ViewController: UIViewController {
         }
     }
 
+    /*
+     *   Change negative or positive mark of the number
+     */
+    @IBAction func changeNP(sender: UIButton) {
+        if calculatePressed{
+            if digital2.containsString("-") {
+                digital2.removeAtIndex(digital2.startIndex)
+            }
+            else{
+                digital2 = "-" + digital2
+            }
+            resultLabel.text = digital2
+        }
+        else{
+            if digital1.containsString("-") {
+                digital1.removeAtIndex(digital1.startIndex)
+            }
+            else{
+                digital1 = "-" + digital1
+            }
+            resultLabel.text = digital1
+        }
+    }
+    
 
+    @IBAction func changePercent(sender: UIButton) {
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

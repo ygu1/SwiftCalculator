@@ -87,7 +87,7 @@ class ViewController: UIViewController {
      */
     func pressAdd() {
         let tempResult: Double = (Double(digital1))! + (Double(digital2))!
-        resultLabel.text = String(format:"%f",tempResult)
+        resultLabel.text = String(format:String(format:"%%.%df",decimalNumber),tempResult)
         digital1 = resultLabel.text!
         digital2 = "0"
     }
@@ -96,7 +96,7 @@ class ViewController: UIViewController {
      */
     func pressSub() {
         let tempResult: Double = (Double(digital1))! - (Double(digital2))!
-        resultLabel.text = String(format:"%f",tempResult)
+        resultLabel.text = String(format:String(format:"%%.%df",decimalNumber),tempResult)
         digital1 = resultLabel.text!
         digital2 = "0"
     }
@@ -105,7 +105,7 @@ class ViewController: UIViewController {
      */
     func pressTime() {
         let tempResult: Double = (Double(digital1))! * (Double(digital2))!
-        resultLabel.text = String(format:"%f",tempResult)
+        resultLabel.text = String(format:String(format:"%%.%df",decimalNumber),tempResult)
         digital1 = resultLabel.text!
         digital2 = "0"
     }
@@ -116,7 +116,13 @@ class ViewController: UIViewController {
         // string 2 cannot be ZERO
         if digital2 != "0" {
             let tempResult: Double = (Double(digital1))! / (Double(digital2))!
-            resultLabel.text = String(format:"%f",tempResult)
+            // check is this an integer
+            if floor(tempResult) == tempResult{
+                resultLabel.text = String(format:"%.0f",tempResult)
+            }
+            else{
+                resultLabel.text = String(format:"%f",tempResult)
+            }
             digital1 = resultLabel.text!
             digital2 = "0"
         }
